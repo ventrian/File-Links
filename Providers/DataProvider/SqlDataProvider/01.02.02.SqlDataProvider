@@ -1,0 +1,31 @@
+﻿CREATE TABLE {databaseOwner}{objectQualifier}Ventrian_FileLinks_Track(
+	[ModuleID] [int] NOT NULL,
+	[UserID] [int] NULL,
+	[Path] [nvarchar](500) NOT NULL,
+	[IPAddress] [nvarchar](50) NULL,
+	[TrackDate] [datetime] NOT NULL
+) ON [PRIMARY]
+GO
+
+CREATE PROCEDURE {databaseOwner}{objectQualifier}Ventrian_FileLinks_TrackDownload
+	@ModuleID int,
+	@UserID int,
+	@Path nvarchar(500),
+	@IPAddress nvarchar(50),
+	@TrackDate datetime
+AS
+
+INSERT INTO {databaseOwner}{objectQualifier}Ventrian_FileLinks_Track (
+	[ModuleID],
+	[UserID],
+	[Path],
+	[IPAddress],
+	[TrackDate]
+) VALUES (
+	@ModuleID,
+	@UserID,
+	@Path,
+	@IPAddress,
+	@TrackDate
+)
+GO

@@ -1,0 +1,12 @@
+﻿DROP PROCEDURE {databaseOwner}{objectQualifier}Ventrian_FileLinks_TrackCount
+GO
+DROP PROCEDURE {databaseOwner}{objectQualifier}Ventrian_FileLinks_TrackDownload
+GO
+DROP PROCEDURE {databaseOwner}{objectQualifier}Ventrian_FileLinks_DescriptionUpdate
+GO
+DROP PROCEDURE {databaseOwner}{objectQualifier}Ventrian_FileLinks_DescriptionList
+GO
+DROP TABLE {databaseOwner}{objectQualifier}Ventrian_FileLinks_Track
+GO
+DROP TABLE {databaseOwner}{objectQualifier}Ventrian_FileLinks_Description
+GO

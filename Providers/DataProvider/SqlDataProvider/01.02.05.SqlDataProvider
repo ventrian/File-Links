@@ -1,0 +1,15 @@
+﻿CREATE PROCEDURE {databaseOwner}{objectQualifier}Ventrian_FileLinks_TrackCount
+	@ModuleID int,
+	@Path nvarchar(500)
+AS
+
+	SELECT
+		count(*) 
+	FROM
+		{objectQualifier}Ventrian_FileLinks_Track t
+	WHERE
+		[ModuleID] = @ModuleID 
+		AND
+		[Path] = @Path
+GO
+

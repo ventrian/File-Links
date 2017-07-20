@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ControlTitle_settings.Text" xml:space="preserve">
+    <value>File Links Settings</value>
+  </data>
+  <data name="plDisplayFolders.Help" xml:space="preserve">
+    <value>Check to display sub-folders.</value>
+  </data>
+  <data name="plDisplayFolders.Text" xml:space="preserve">
+    <value>Display Folders</value>
+  </data>
+  <data name="plFooter.Help" xml:space="preserve">
+    <value>Customize the template for footer.</value>
+  </data>
+  <data name="plFooter.Text" xml:space="preserve">
+    <value>Footer</value>
+  </data>
+  <data name="plHeader.Help" xml:space="preserve">
+    <value>Customize the template for header.</value>
+  </data>
+  <data name="plHeader.Text" xml:space="preserve">
+    <value>Header</value>
+  </data>
+  <data name="plItem.Help" xml:space="preserve">
+    <value>Customize the template for each item.</value>
+  </data>
+  <data name="plItem.Text" xml:space="preserve">
+    <value>Item</value>
+  </data>
+  <data name="plSelectFolder.Help" xml:space="preserve">
+    <value>Select folder to display portal files from.</value>
+  </data>
+  <data name="plSelectFolder.Text" xml:space="preserve">
+    <value>Select Folder</value>
+  </data>
+  <data name="TemplateSettings.Text" xml:space="preserve">
+    <value>Template Settings</value>
+  </data>
+  <data name="Root.Text" xml:space="preserve">
+    <value>Root</value>
+  </data>
+  <data name="ContentType.Text" xml:space="preserve">
+    <value>The content type of the file.</value>
+  </data>
+  <data name="Extension.Text" xml:space="preserve">
+    <value>The extension of the file.</value>
+  </data>
+  <data name="Icon.Text" xml:space="preserve">
+    <value>The icon of the file.</value>
+  </data>
+  <data name="IconUrl.Text" xml:space="preserve">
+    <value>The icon url of the file.</value>
+  </data>
+  <data name="IsFile.Text" xml:space="preserve">
+    <value>Optionally display the region if the item is a file.</value>
+  </data>
+  <data name="IsFolder.Text" xml:space="preserve">
+    <value>Optionally display the region if the item is a folder.</value>
+  </data>
+  <data name="Link.Text" xml:space="preserve">
+    <value>The link of the file.</value>
+  </data>
+  <data name="Name.Text" xml:space="preserve">
+    <value>The name of the file.</value>
+  </data>
+  <data name="Size.Text" xml:space="preserve">
+    <value>The size of the file.</value>
+  </data>
+  <data name="TemplateHelp.Text" xml:space="preserve">
+    <value>Template Help</value>
+  </data>
+  <data name="DateCreated.Text" xml:space="preserve">
+    <value>The creation date of the file.</value>
+  </data>
+  <data name="DateModified.Text" xml:space="preserve">
+    <value>The modified date of the file.</value>
+  </data>
+  <data name="plExtensionFilter.Help" xml:space="preserve">
+    <value>Filter by a comma separated list of extensions.</value>
+  </data>
+  <data name="plExtensionFilter.Text" xml:space="preserve">
+    <value>Extension Filter</value>
+  </data>
+  <data name="IsAlternate.Text" xml:space="preserve">
+    <value>Optionally display the region for odd items.</value>
+  </data>
+  <data name="DeleteToken.Text" xml:space="preserve">
+    <value>Show a delete icon to allow the user to delete a file.</value>
+  </data>
+  <data name="Ascending.Text" xml:space="preserve">
+    <value>Ascending</value>
+  </data>
+  <data name="Descending.Text" xml:space="preserve">
+    <value>Descending</value>
+  </data>
+  <data name="ModifiedDateSort.Text" xml:space="preserve">
+    <value>Modified Date</value>
+  </data>
+  <data name="NameSort.Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="plMaxFileSize.Help" xml:space="preserve">
+    <value>Specify the maximum file size to upload.</value>
+  </data>
+  <data name="plMaxFileSize.Text" xml:space="preserve">
+    <value>Max File Size (KB)</value>
+  </data>
+  <data name="plSortBy.Help" xml:space="preserve">
+    <value>Select how to sort files.</value>
+  </data>
+  <data name="plSortBy.Text" xml:space="preserve">
+    <value>Sort By</value>
+  </data>
+  <data name="plSortDirection.Help" xml:space="preserve">
+    <value>Select sort direction for files.</value>
+  </data>
+  <data name="plSortDirection.Text" xml:space="preserve">
+    <value>Sort Direction</value>
+  </data>
+  <data name="SizeSort.Text" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="valMaxFileSize.ErrorMessage" xml:space="preserve">
+    <value>&lt;br&gt;Max File Size is required.</value>
+  </data>
+  <data name="valMaxFileSizeIsNumber.ErrorMessage" xml:space="preserve">
+    <value>&lt;br&gt;Max File Size must be a number.</value>
+  </data>
+  <data name="ImageSettings.Text" xml:space="preserve">
+    <value>Image Settings</value>
+  </data>
+  <data name="MinSize.Text" xml:space="preserve">
+    <value>Minimum Size</value>
+  </data>
+  <data name="plCompressionType.Help" xml:space="preserve">
+    <value>Specify a compression type for resizing images.</value>
+  </data>
+  <data name="plCompressionType.Text" xml:space="preserve">
+    <value>Compression Type</value>
+  </data>
+  <data name="plImageHeight.Help" xml:space="preserve">
+    <value>Specify the maximum height of image.</value>
+  </data>
+  <data name="plImageHeight.Text" xml:space="preserve">
+    <value>Image Height</value>
+  </data>
+  <data name="plImageWidth.Help" xml:space="preserve">
+    <value>Specify the maximum width of image.</value>
+  </data>
+  <data name="plImageWidth.Text" xml:space="preserve">
+    <value>Image Width</value>
+  </data>
+  <data name="plRenameImages.Help" xml:space="preserve">
+    <value>Check to rename images in the format name100x100.jpg (e.g. adding dimensions to file)</value>
+  </data>
+  <data name="plRenameImages.Text" xml:space="preserve">
+    <value>Rename Images</value>
+  </data>
+  <data name="plResizeImages.Help" xml:space="preserve">
+    <value>Check to resize uploaded images.</value>
+  </data>
+  <data name="plResizeImages.Text" xml:space="preserve">
+    <value>Resize Images</value>
+  </data>
+  <data name="Quality.Text" xml:space="preserve">
+    <value>Quality</value>
+  </data>
+  <data name="valImageHeight.ErrorMessage" xml:space="preserve">
+    <value>&lt;br&gt;Image Height is required.</value>
+  </data>
+  <data name="valImageHeightIsNumber.ErrorMessage" xml:space="preserve">
+    <value>&lt;br&gt;Image Height must be a number.</value>
+  </data>
+  <data name="valImageWidth.ErrorMessage" xml:space="preserve">
+    <value>&lt;br&gt;Image Width is required.</value>
+  </data>
+  <data name="valImageWidthIsNumber.ErrorMessage" xml:space="preserve">
+    <value>&lt;br&gt;Image Width must be a number.</value>
+  </data>
+  <data name="plSecureUrl.Help" xml:space="preserve">
+    <value>Optionally specify a redirect url when clicking on secure folders.</value>
+  </data>
+  <data name="plSecureUrl.Text" xml:space="preserve">
+    <value>Secure Redirect Url</value>
+  </data>
+  <data name="SecureToken.Text" xml:space="preserve">
+    <value>Show a secure icon to allow the user to secure folders.</value>
+  </data>
+  <data name="NameNoExtension.Text" xml:space="preserve">
+    <value>The name of the file, minus the extension.</value>
+  </data>
+  <data name="plEmpty.Help" xml:space="preserve">
+    <value>Customize the text for an empty folder.</value>
+  </data>
+  <data name="plEmpty.Text" xml:space="preserve">
+    <value>Empty</value>
+  </data>
+  <data name="plDisplayFilesInFolders.Help" xml:space="preserve">
+    <value>Check to display files inline under folders. </value>
+  </data>
+  <data name="plDisplayFilesInFolders.Text" xml:space="preserve">
+    <value>Display files in folders</value>
+  </data>
+  <data name="plEnableTerms.Help" xml:space="preserve">
+    <value>Check to enable terms &amp; conditions for downloads.</value>
+  </data>
+  <data name="plEnableTerms.Text" xml:space="preserve">
+    <value>Enabled?</value>
+  </data>
+  <data name="plSubItem.Help" xml:space="preserve">
+    <value>Customise the template used for files in folders.</value>
+  </data>
+  <data name="plSubItem.Text" xml:space="preserve">
+    <value>Item (files in folders)</value>
+  </data>
+  <data name="plTermsTemplate.Help" xml:space="preserve">
+    <value>Specify the content for the terms template. </value>
+  </data>
+  <data name="plTermsTemplate.Text" xml:space="preserve">
+    <value>Terms Template</value>
+  </data>
+  <data name="plTrackDownloads.Help" xml:space="preserve">
+    <value>Check to track downloads.</value>
+  </data>
+  <data name="plTrackDownloads.Text" xml:space="preserve">
+    <value>Track Downloads</value>
+  </data>
+  <data name="TermsConditions.Text" xml:space="preserve">
+    <value>Terms &amp; Conditions Settings</value>
+  </data>
+  <data name="DescriptionToken.Text" xml:space="preserve">
+    <value>Show the description of the file set by the [EDIT] token.</value>
+  </data>
+  <data name="plSubEmpty.Help" xml:space="preserve">
+    <value>Customise the template used for empty files in folders.</value>
+  </data>
+  <data name="plSubEmpty.Text" xml:space="preserve">
+    <value>Empty (files in folders)</value>
+  </data>
+  <data name="EnableTermsNote.Text" xml:space="preserve">
+    <value>For terms and conditions to work, you must have class="Terms" in the link to the file. </value>
+  </data>
+  <data name="DownloadCountToken.Text" xml:space="preserve">
+    <value>Shows the number of downloads if track downloads checked.</value>
+  </data>
+  <data name="DateCreatedXXX.Text" xml:space="preserve">
+    <value>The creation date of the file where XXX is a date format string.</value>
+  </data>
+  <data name="DateModifiedXXX.Text" xml:space="preserve">
+    <value>The modified date of the file where XXX is a date format string.</value>
+  </data>
+</root>

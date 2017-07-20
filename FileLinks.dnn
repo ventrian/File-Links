@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dotnetnuke version="3.0" type="Module">
+	<folders>
+		<folder>
+			<name>FileLinks</name>
+  		<friendlyname>File Links</friendlyname>
+  		<foldername>FileLinks</foldername>
+  		<modulename>FileLinks</modulename>
+			<description>Allows you to upload and view files from the file manager.</description>
+			<version>01.02.09</version>
+      <resourcefile>Resources.zip</resourcefile>
+      <compatibleversions>^[0]?[4-9]{1}\.[0-9]{1}[5-9]{1}\.[0-9]{1}[0-9]{1}$</compatibleversions>
+			<modules>
+				<module>
+					<friendlyname>FileLinks</friendlyname>
+					<controls>
+						<control>
+							<src>Default.ascx</src>
+							<type>View</type>
+              <supportspartialrendering>false</supportspartialrendering>
+						</control>
+            <control>
+              <key>AddFiles</key>
+              <title>Add Files</title>
+              <src>AddFiles.ascx</src>
+              <type>View</type>
+              <supportspartialrendering>false</supportspartialrendering>
+            </control>
+            <control>
+              <key>AddFolder</key>
+              <title>Add Folder</title>
+              <src>AddFolder.ascx</src>
+              <type>View</type>
+              <supportspartialrendering>false</supportspartialrendering>
+            </control>
+            <control>
+              <key>Settings</key>
+              <title>File Links Settings</title>
+              <src>Settings.ascx</src>
+              <type>Edit</type>
+              <supportspartialrendering>true</supportspartialrendering>
+            </control>
+					</controls>
+				</module>
+			</modules>
+			<files>
+        <file>
+          <name>AddFiles.ascx</name>
+        </file>
+        <file>
+          <name>AddFolder.ascx</name>
+        </file>
+				<file>
+					<name>Default.ascx</name>
+				</file>
+        <file>
+          <name>Module.css</name>
+        </file>
+        <file>
+          <name>RedirectFile.ashx</name>
+        </file>
+        <file>
+          <name>SaveDesc.ashx</name>
+        </file>
+        <file>
+          <name>Settings.ascx</name>
+        </file>
+        <file>
+          <name>Uploader.ashx</name>
+        </file>
+        <file>
+          <name>Ventrian.FileLinks.dll</name>
+        </file>
+        <file>
+          <name>Ventrian.FileLinks.SqlDataProvider.dll</name>
+        </file>
+        <file>
+          <name>01.02.02.SqlDataProvider</name>
+        </file>
+        <file>
+          <name>01.02.03.SqlDataProvider</name>
+        </file>
+        <file>
+          <name>01.02.05.SqlDataProvider</name>
+        </file>
+        <file>
+          <name>uninstall.SqlDataProvider</name>
+        </file>
+			</files>
+		</folder>
+	</folders>
+</dotnetnuke>

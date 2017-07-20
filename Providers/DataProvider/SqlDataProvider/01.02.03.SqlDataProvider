@@ -1,0 +1,39 @@
+﻿CREATE TABLE {databaseOwner}{objectQualifier}Ventrian_FileLinks_Description(
+	[ModuleID] [int] NOT NULL,
+	[Path] [nvarchar](2000) NOT NULL,
+	[Description] [ntext] NULL
+) ON [PRIMARY]
+GO
+
+CREATE PROCEDURE {databaseOwner}{objectQualifier}Ventrian_FileLinks_DescriptionList
+	@ModuleID int
+AS
+
+SELECT
+	[ModuleID],
+	[Path],
+	[Description]
+FROM
+	{databaseOwner}{objectQualifier}Ventrian_FileLinks_Description
+GO
+
+CREATE PROCEDURE {databaseOwner}{objectQualifier}Ventrian_FileLinks_DescriptionUpdate
+	@ModuleID int,
+	@Path nvarchar(2000),
+	@Description ntext
+AS
+
+IF( (SELECT COUNT(*) FROM {objectQualifier}Ventrian_FileLinks_Description WHERE [ModuleID] = @ModuleID AND [Path] = @Path) > 0 )
+BEGIN
+	UPDATE
+		{objectQualifier}Ventrian_FileLinks_Description
+	SET
+		[Description] = @Description
+	WHERE
+		[ModuleID] = @ModuleID AND [Path] = @Path
+END
+ELSE
+BEGIN
+	INSERT INTO {objectQualifier}Ventrian_FileLinks_Description([ModuleID], [Path], [Description]) VALUES(@ModuleID, @Path, @Description)
+END
+GO
